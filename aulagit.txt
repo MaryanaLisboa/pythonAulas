@@ -1,0 +1,32 @@
+*TEORIA:*
+
+GIT -> programa -> VERSIONA (separa o cód. por versões)
+
+GIT HUB -> plataforma -> HOSPEDA
+
+GIT INIT -> inicialização 
+
+GIT ADD -> adiciona os arquivos
+
+GIT COMMIT -> mensagem
+
+GIT REMOTE SET-URL ORIGIN -> PythonLisboa pythonAulas
+
+GIT PUSH -> enviar 
+
+
+*PRÁTICA (PASSO A PASSO):*
+
+criar repositório no google git
+cd D: 
+cd PythonLisboa
+git init
+git add .
+git commit -m "SUBINDO OS ARQUIVOS DAS AULAS EM PYTHON"
+git remote set-url origin *link* https://github.com/MaryanaLisboa/pythonGit.git
+
+ENVIAR PARA A PLATAFORMA 
+git push -u origin main
+
+
+
